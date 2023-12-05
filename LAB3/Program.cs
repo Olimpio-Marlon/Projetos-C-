@@ -118,7 +118,7 @@ namespace LBA3
 
             // Exercício 3 do LAB3
 
-            /* Console.WriteLine("Digite a data e hora:");
+            Console.WriteLine("Digite a data e hora:");
              var myDateTime2 = DateTime.Parse(Console.ReadLine());
 
              Console.WriteLine($"myDateTime2: {myDateTime2.ToShortDateString()}, {myDateTime2.ToShortTimeString()}, {myDateTime2.ToLongDateString()}");
@@ -130,7 +130,7 @@ namespace LBA3
 
              var data3 = DateTime.Parse(Console.ReadLine());
              Console.WriteLine("Digite uma data e hora");
-             // var data = DateTime.Parse(Console.ReadLine());
+              var data = DateTime.Parse(Console.ReadLine());
 
              var formatada = String.Format("{0:d}, {0:T}", data);
              Console.WriteLine(formatada);
@@ -163,7 +163,7 @@ namespace LBA3
 
                  public static void ShowProprerties(TimeSpan timeZoneBR, TimeSpan timeZoneUS)
              {
-                 TimeSpan intervalo = timeZoneBR - timeZoneUS;*/
+                 TimeSpan intervalo = timeZoneBR - timeZoneUS;
 
 
 
